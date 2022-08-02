@@ -11,6 +11,10 @@
 }
 
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     margin: 0;
     background-color: var(--light-gray);
     font-family: Outfit, serif;
@@ -22,16 +26,13 @@ body {
     background-color: white;
     width: min-content;
     border-radius: 24px;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
     text-align: center;
     box-shadow: 0 15px 15px #c8d4e0;
+    width: 20rem;
 }
 
 .component__img {
-    width: 290px;
+    width: 100%;
     height: auto;
     border-radius: 12px;
 }
